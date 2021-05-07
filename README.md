@@ -14,6 +14,7 @@ Written in are several input blocking calls while the user logs in and chooses t
   <li>Hit enter after reaching the Keyword Planner page and selecting your account</li>
   <li>...and then after selecting the date (and geolocation) of the query data</li>
 </ul>
+
 ``` python
 # entry point to program
 py run_scraper.py
