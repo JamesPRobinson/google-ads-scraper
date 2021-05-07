@@ -7,6 +7,12 @@ Why not use Google Ads API? Largely due to limits on creating Keyword Plans, or 
   <li>Mozilla Firefox</li>
   <li>Python</li>
 </ul>
+
+<h3>Input/Output</h3>
+Input is concatenated keywords (Business, keyword 1, keyword 2, keyword 3) with localities.
+Raw output from Google Ads appears in Raw Output.
+This raw output is then sorted by Business Name into the folder Output.
+
 <h3>Waits</h3>
 Written in are several input blocking calls while the user logs in and chooses their configurations. These are only required once per session.
 <ul>
